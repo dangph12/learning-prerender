@@ -14,6 +14,8 @@ import {
 
 import { CreateDishRequest, UpdateDishRequest } from './dish-dto';
 
+import { ROLE } from '~/shared/constants/role';
+
 const nutrientKeys = [
   'calories',
   'carbs',
